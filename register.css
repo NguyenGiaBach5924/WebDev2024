@@ -21,29 +21,15 @@ body {
     top: 10px;
     left: 10px;
 }
-.logo{
-    font-family: "Protest Strike", sans-serif;
-    font-size: 68px;
-    color: #253892;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    position: center;
-    text-align: center;
-    max-width: 600px;
-    line-height: 1.5;
-    margin-left: 50px;
-    padding-right: 200px;
-    margin-top: -90px;
-}
 
 
 
-.login-container {
+.register-container {
     background-color: #fcfcfc; /* White background for the form */
-    padding: 30px;
-    border-radius: 8px;
+    padding: 50px;
+    border-radius: 15px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 400px;
     margin-top: -50px;
 }
 
@@ -85,33 +71,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #253892; /* Darker blue on hover */
-}
-
-.footer {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 12px;
-}
-
-.footer a {
-    color: #253892; /* Link color */
-    text-decoration: none; /* Remove underline */
-}
-
-.footer a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
-.register {
-    text-align: center;
-    margin-top: 15px;
-    font-size: 12px;
-}
-
-.register a {
-    color: #253892; /* Link color */
-    text-decoration: none; /* Remove underline */
-}
-
-.register a:hover {
-    text-decoration: underline; /* Underline on hover */
 }
